@@ -1,0 +1,115 @@
+body {
+background-color: lightgray;
+
+
+}
+
+
+.cardanime {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
+
+
+}
+/*headercard*/
+
+    
+    .indiangirl {
+        background: url(/images/indian.jpeg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 250px;
+        transition: all 0.5s;
+
+    }
+
+    .date {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #d15653;
+        margin: 15px 15px 0 0;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+
+    }
+
+
+
+    .cardanime:hover .indiangirl {
+        transform: scale(1,02);
+        opacity: 80%;
+        }
+
+    
+
+
+/*descriptioncard*/
+
+.description {
+
+    position: relative;
+    background-color: white;
+    height: 500px;
+
+.pictures {
+
+   float: left;
+   margin-top: -35px;
+   background-color: #d15653;
+   font-size: 30px;
+   font-weight: bold;
+}
+
+h1 {
+text-transform: uppercase;
+color: pink;
+margin-left: 10px;
+}
+
+h2 {
+text-transform: uppercase;
+color: grey;
+margin-left: 10px;
+}
+
+p {
+color: grey;
+visibility: hidden;
+text-align: center;
+padding: 15px;
+}
+}
+
+.cardanime:hover .description {
+    margin-top: -55px;
+
+    transition-duration: 2s;
+    p {
+        visibility: visible;
+        transition-duration: 4s;
+
+    }
+}
+
+
+/*footer*/
+.cardfooter {
+ position: fixed;
+ top: 450px; 
+  }
+  
+  img {
+    display: inline-block;
+    margin-left: 100px;
+    width: 20px;
+  }
