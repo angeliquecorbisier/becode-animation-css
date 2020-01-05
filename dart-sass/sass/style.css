@@ -14,7 +14,7 @@ body {
 
 /*headercard*/
 .indiangirl {
-  background: url(/becode-animation-css/images/indian.jpeg) no-repeat;
+  background: url(becode-animation-css/images/indian.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
